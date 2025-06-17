@@ -1,0 +1,68 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: The9 Storefront\n"
+"POT-Creation-Date: 2025-04-14 19:25+0600\n"
+"PO-Revision-Date: 2025-04-14 19:25+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:23
+msgid "Default Header Image"
+msgstr ""
+
+#: functions.php:191
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:195
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "The9 Storefront"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://athemeart.com/downloads/the9-storefront/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The9 Storefront is a sleek and powerful free WooCommerce theme built for "
+"modern online shops. As a child theme of The9 Store, it combines stylish "
+"design with robust eCommerce features—perfect for startups, small "
+"businesses, and personal brands. Whether you're selling fashion, "
+"electronics, organic products, or digital goods, The9 Storefront delivers a "
+"clean, user-friendly layout. It includes a smart product catalog, advanced "
+"search, and a convenient flyout cart for a smoother shopping experience. "
+"You’ll also find built-in blogging tools like masonry grids, list views, "
+"animated headers, and author boxes—perfect for sharing updates, stories, or "
+"promotions. With an easy-to-use customizer, you can change colors, layouts, "
+"and more—no coding needed. This WordPress shop theme is ideal for a wide "
+"range of stores, including boutiques, clothing, watches, footwear, "
+"cosmetics, hardware, mobile accessories, tools, laptops, furniture, "
+"healthcare items, pharmacy products, and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "aThemeArt"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://athemeart.com/"
+msgstr ""

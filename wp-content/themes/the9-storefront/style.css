@@ -1,0 +1,182 @@
+/*
+Theme Name: The9 Storefront
+Author: aThemeArt
+Author URI: https://athemeart.com/
+Theme URI: https://athemeart.com/downloads/the9-storefront/
+Description:The9 Storefront is a sleek and powerful free WooCommerce theme built for modern online shops. As a child theme of The9 Store, it combines stylish design with robust eCommerce features—perfect for startups, small businesses, and personal brands. Whether you're selling fashion, electronics, organic products, or digital goods, The9 Storefront delivers a clean, user-friendly layout. It includes a smart product catalog, advanced search, and a convenient flyout cart for a smoother shopping experience. You’ll also find built-in blogging tools like masonry grids, list views, animated headers, and author boxes—perfect for sharing updates, stories, or promotions. With an easy-to-use customizer, you can change colors, layouts, and more—no coding needed. This WordPress shop theme is ideal for a wide range of stores, including boutiques, clothing, watches, footwear, cosmetics, hardware, mobile accessories, tools, laptops, furniture, healthcare items, pharmacy products, and more. 
+Template: the9-store
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 7.0
+Requires PHP: 7.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: blog, e-commerce, three-columns, grid-layout, left-sidebar, right-sidebar, sticky-post, custom-background, custom-header, custom-colors, custom-menu, featured-images, full-width-template, translation-ready, theme-options, threaded-comments, custom-logo, portfolio, footer-widgets
+Text Domain: the9-storefront
+*/
+:root {
+	--body-font:'Lato', sans-serif;
+	--heading-font:'Playfair Display', sans-serif;
+  --nav-font:'Poppins', sans-serif;
+}
+.logo-container{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	z-index: 999;
+	border-bottom:1px solid rgba(255, 255, 255, 0.2);
+	padding:30px 0px;
+	background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+}
+#navbar{
+	background:none;
+}
+#navbar ul > li > a{
+	border: none!important;
+}
+#navbar ul > li > a:hover, #navbar ul > li > a:focus, #navbar ul > li:hover > a, #navbar ul > li:focus > a, #navbar ul > li.current-menu-item > a, #navbar ul > li.current_page_parent > a{
+	background:none;
+}
+#navbar .navigation-menu > li a::after {
+	display: none;
+}
+#static_header_banner{
+	min-height: 50vh;
+	height: auto;
+}
+#static_header_banner .content-text{
+	padding-top: 180px;
+	padding-bottom: 50px;
+}
+.logo-wrap a{
+	color: #fff;
+}
+.top-form-minicart.box-icon-cart{
+	padding: 0px;
+	width: auto;
+	margin:0px 5px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30px;
+}
+.top-form-minicart:before,
+.top-form-minicart:after{
+	display: none!important;
+}
+.top-form-minicart.box-icon-cart .icofont-cart {
+  color: var(--secondary-color);
+  height: 40px;
+  width: 40px;
+  background-color: #F7F7F7;
+  border-radius:50%;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+  font-size: 18px;
+}
+.top-form-minicart.box-icon-cart .cart-contents{
+	text-align: left;
+}
+.top-form-minicart.box-icon-cart .cart-contents .amount{
+	display: block;
+	font-size: 0.8em;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 20px;
+}
+.top-form-minicart.box-icon-cart .cart-contents .count{
+  display: block;
+  line-height: 18px;
+  font-family: var(--nav-font);
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+#navbar .navigation-menu > li > a, #navbar .navigation-menu li li > a {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform:capitalize;
+}
+#navbar .navigation-menu li li > a{
+	font-size: 14px;
+	font-weight: 400;
+}
+#navbar li li a{
+	padding: 5px 10px;
+}
+h1, h2, h3, h4, h5, h6, #review_form .comment-reply-title{
+	font-weight: bold;
+}
+.theme-btn, .btn.bg-btn, .wc-proceed-to-checkout .button, .components-button.wc-block-components-button, .single-prev-next a{
+		font-weight: 600;
+		font-size: 14px;
+		letter-spacing: 1px;
+}
+.customSelect.orderby::after {
+		font-family: 'bootstrap-icons'!important;
+		content: '\f229'!important;
+		position: absolute;
+		right: 0;
+		top: 0;
+		display: block;
+		height: 32px;
+		width: 32px;
+		font-size: 11px;
+		color: #929292;
+		border-left:1px solid #ddd;
+		text-align: center;
+}
+ul.products li.product,
+article.the9-store-post{
+		transition: all 0.3s ease-in-out;
+}
+ul.products li.product:hover,
+article.the9-store-post:hover{
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.error-404.not-found8{
+		margin-top: 122px;
+}
+.navigation-2.posts-navigation a{
+	width:auto;
+	min-width: 170px;
+}
+.navigation-2.posts-navigation a:hover,
+.navigation-2.posts-navigation a:focus{
+	background: var(--secondary-color);
+	color: #fff;
+}
+.navigation-2.posts-navigation .nav-previous a {
+	padding-left: 50px;
+}
+.navigation-2.posts-navigation a:after{
+	font-family: "bootstrap-icons";
+	content: "\f27f";
+	background:none;
+	opacity: 1;
+	left: 20px;
+	top: 50%;
+	margin-top: -7px;
+}
+.navigation-2.posts-navigation .nav-next a:after{
+	content: "\f280";
+	right: 20px;
+	left: auto;
+}
+body.single-product #content div.product div.summary .btn{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+@media only screen and (max-width: 640px) {
+	.logo-container .col-sm-4 { max-width:40%; width:40%; }
+	.logo-container .col-sm-8{ max-width:60%; width:60%; }
+	.logo-container .top-form-minicart{ min-width:0px; width:120px!important; margin:0px 0px 0px 5px;}
+	.the9-store-responsive-navbar{ width:45px; height:45px; font-size: 35px;}
+	#aside-nav-wrapper ul.navigation-menu{ padding-top:15px!important; }
+}
